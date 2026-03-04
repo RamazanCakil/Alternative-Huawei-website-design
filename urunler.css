@@ -1,0 +1,1014 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+background-color: #000000;
+padding-top:0px;
+ min-height: 100%;
+margin:0;
+
+}
+
+.ustbar{
+width:100%;
+
+height:50px;
+background: rgba(255, 255, 255, 0.9);
+
+
+
+display:flex;
+justify-content:space-between;
+
+
+background-color:#3E3636
+
+}
+
+
+
+.ustpng{
+width:40px;
+height:40px;
+opacity:0.7;
+border-radius:10px;
+
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.ustpng:hover{
+opacity:1;
+transition: transform 0.3s ease;
+  transform: scale(1.15);
+  box-shadow: 0 0 10px 7px rgba(255,255,255,0.7);
+}
+
+
+
+.navigasyon_bar{
+
+
+
+display: flex;
+justify-content:space-between;
+
+
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+padding:5px;
+
+position:fixed;
+width:100%;
+top:0;
+
+  overflow: hidden;
+
+z-index:100;
+background-color:#D72323;
+
+opacity:0.7;
+}
+
+.huawei_png{
+width:30px;
+height:30px;
+padding-top:0px;
+padding-bottom:0px;
+margin:0;
+object-fit: contain;
+}
+
+
+.ic_div{
+  display: flex;
+  align-items: center;    
+  text-align: center;
+  gap:8px;
+
+}
+
+
+.navigasyon_bar img{
+transition: transform 0.3s ease;
+  transform: scale(1);
+}
+.navigasyon_bar img:hover{
+  transform: scale(1.20);
+}
+
+
+.navigasyon_bar a:hover{
+    opacity: 1;
+    transition: all 0.1s ease-in-out;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.18);
+
+    
+    background-color: #ffffff;
+    border: 0px solid rgb(255, 0, 0);
+    border-radius: 15px;
+    
+transform: translateY(-3px) scale(1.01);
+  box-shadow: 0 0 10px 5px rgba(255,255,255,0.7);
+
+
+}
+.navigasyon_bar:hover{
+opacity:1;
+}
+
+.navigasyon_bar a{
+  text-decoration: none;
+  color: black;
+padding: 10px;
+margin-right:20px;
+}
+.navpng{
+width:40;
+height:40;
+}
+
+
+
+
+
+.tel_class{
+height:300px;
+width:300px;
+border-radius:20px;
+}
+
+.telefon_baslik{
+margin:170px;
+text-align:center;
+font-size:60px;
+color:#D72323;
+}
+
+.div_class {
+    background-color: #D72323;
+    width: 400px;
+    height: 450px; 
+    border-radius: 20px;
+    overflow: hidden; 
+    position: relative;
+    transition: all 0.4s ease; 
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin-bottom:50px;
+}
+
+.div_class > h2:first-of-type {
+   
+    color: white;
+    margin: 0 0 15px 0;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 0;
+}
+
+
+.div_class img.tel_class {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+
+.ozellikler {
+    width: 100%;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    color: white;
+    text-align: center;
+}
+
+.ozellikler h2 {
+    color: white;
+    margin: 15px 0 15px 0;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ozellikler h2.ic_png img {
+    width: 30px;
+    height: 30px;
+    padding-left: 0;
+    display: inline-block;
+}
+
+.ozellikler h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: rgba(255,255,255,0.9);
+    font-style: italic;
+}
+
+
+.ozellikler p.ic_png {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 22px;
+}
+
+
+.matepad_pro_serisi a:hover .div_class {
+    height: 1250px; 
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+
+.matepad_pro_serisi a:hover .div_class .ozellikler {
+    opacity: 1;
+    max-height: 900px; 
+    overflow-y: auto; 
+}
+
+
+
+
+
+
+
+.mini_div_class{
+background-color:#000000;
+width:400px;
+height:500px;
+h2{
+padding-top:15px;
+text-align:center;
+}
+img{
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+border-radius:20px;
+
+  transition: box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+color:#D72323;
+
+p{
+padding-left:10px;
+ text-align: justify;
+}
+
+}
+
+
+
+
+.pura_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap; 
+}
+.pura_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.pura_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.p_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap; 
+}
+.p_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.p_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.mate_fold_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap; 
+}
+.mate_fold_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.mate_fold_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.mate_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap; 
+}
+.mate_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.mate_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.ozellikler{
+    text-align:center;
+}
+.ozellikler .ic_png{
+    margin-left:10px;
+    text-align:center;
+}
+.ozellikler img{
+    width:30px;
+    height:30px;
+    padding-left:164px;
+}
+
+.nova_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap; 
+}
+.nova_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.nova_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.nova_serisi_old{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap; 
+}
+.nova_serisi_old a{
+    text-decoration: none;
+    color: black;
+}
+.nova_serisi_old a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.matepad_pro_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap;
+}
+.matepad_pro_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.matepad_pro_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.matepad_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.matepad_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.matepad_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.matepad_se_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap; 
+}
+.matepad_se_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.matepad_se_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.matebook_x_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap; 
+}
+.matebook_x_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.matebook_x_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.matebook_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap;
+}
+.matebook_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.matebook_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.matebook_e_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap; 
+}
+.matebook_e_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.matebook_e_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.watch_ultimate_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap; 
+}
+.watch_ultimate_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.watch_ultimate_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.watch_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap; 
+}
+.watch_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.watch_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.watch_gt_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap; 
+}
+.watch_gt_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.watch_gt_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.watch_fit_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap; 
+}
+.watch_fit_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.watch_fit_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.watch_d_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap; 
+}
+.watch_d_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.watch_d_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.band_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap; 
+}
+.band_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.band_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.watch_kids_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap; 
+}
+.watch_kids_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.watch_kids_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.freebuds_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap; 
+}
+.freebuds_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.freebuds_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.freeclip_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap; 
+}
+.freeclip_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.freeclip_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.freearc_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap; 
+}
+.freearc_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.freearc_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.freelace_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap; 
+}
+.freelace_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.freelace_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.gozluk_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap; 
+}
+.gozluk_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.gozluk_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.akilli_hoparlor_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap; /* TAŞMAYI ENGELLEYEN KOD */
+}
+.akilli_hoparlor_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.akilli_hoparlor_serisi a:hover .div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.mesh_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap; /* TAŞMAYI ENGELLEYEN KOD */
+}
+.mesh_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.mesh_serisi a:hover .mini_div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.BE-AX_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap; /* TAŞMAYI ENGELLEYEN KOD */
+}
+.BE-AX_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.BE-AX_serisi a:hover .mini_div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.BE-AX-2_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap; /* TAŞMAYI ENGELLEYEN KOD */
+}
+.BE-AX-2_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.BE-AX-2_serisi a:hover .mini_div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.CPE_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap; /* TAŞMAYI ENGELLEYEN KOD */
+}
+.CPE_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.CPE_serisi a:hover .mini_div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.CPE-2_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:75px;
+    flex-wrap: wrap; /* TAŞMAYI ENGELLEYEN KOD */
+}
+.CPE-2_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.CPE-2_serisi a:hover .mini_div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.mobile_wifi_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap; /* TAŞMAYI ENGELLEYEN KOD */
+}
+.mobile_wifi_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.mobile_wifi_serisi a:hover .mini_div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+.more_product_serisi{
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap; /* TAŞMAYI ENGELLEYEN KOD */
+}
+.more_product_serisi a{
+    text-decoration: none;
+    color: black;
+}
+.more_product_serisi a:hover .mini_div_class{
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+
+
+
+
+
+
+.alt-banner {
+  background-color: #3E3636;
+  text-align: center;
+  padding: 20px;
+width:100%;
+color:#D72323;
+
+
+}
+
+.last_foot{
+text-align:center;
+color:#D72323;
+
+
+margin-top:30px;
+}
+.foot a{
+text-decoration:none;
+
+color:#D72323;
+
+margin:50px;
+}
+
+.foot_divs{
+display:flex;
+justify-content:space-between;
+margin-bottom:50px;
+margin-top:50px;
+width:auto;
+height:50px;
+background-color:#3E3636;
+gap:10px;
+border-radius:20px;
+
+
+}
+.foot_divs a{
+text-decoration:none;
+text-align:left;
+color:#3E3636;
+border-radius:20px;
+
+}
+.foot_div1{
+width:auto;
+height:50px;
+
+border-radius:20px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+color:#D72323;
+line-height:25px;
+
+
+}
+.foot_div1:hover{
+transform: translateY(-2px) scale(1.01);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+color:#D72323;
+}
+.foot_divs a:hover{
+background-color:#f8f8f8;
+
+}
+.footer_foto{
+width:50px;
+height:50px;
+border-radius:20px;
+float:left;
+margin-right: 10px;
+
+}
+
+
+
+
+
+
+
+/* Tüm seriler için ortak hover davranışı */
+.pura_serisi a:hover .div_class,
+.p_serisi a:hover .div_class,
+.mate_fold_serisi a:hover .div_class,
+.mate_serisi a:hover .div_class,
+.nova_serisi a:hover .div_class,
+.nova_serisi_old a:hover .div_class,
+.matepad_pro_serisi a:hover .div_class,
+.matepad_serisi a:hover .div_class,
+.matepad_se_serisi a:hover .div_class,
+.matebook_x_serisi a:hover .div_class,
+.matebook_serisi a:hover .div_class,
+.matebook_e_serisi a:hover .div_class,
+.watch_ultimate_serisi a:hover .div_class,
+.watch_serisi a:hover .div_class,
+.watch_gt_serisi a:hover .div_class,
+.watch_fit_serisi a:hover .div_class,
+.watch_d_serisi a:hover .div_class,
+.band_serisi a:hover .div_class,
+.watch_kids_serisi a:hover .div_class,
+.freebuds_serisi a:hover .div_class,
+.freeclip_serisi a:hover .div_class,
+.freearc_serisi a:hover .div_class,
+.freelace_serisi a:hover .div_class,
+.gozluk_serisi a:hover .div_class,
+.akilli_hoparlor_serisi a:hover .div_class,
+.mesh_serisi a:hover .div_class,
+.BE-AX_serisi a:hover .div_class,
+.BE-AX-2_serisi a:hover .div_class,
+.CPE_serisi a:hover .div_class,
+.CPE-2_serisi a:hover .div_class,
+.mobile_wifi_serisi a:hover .div_class,
+.more_product_serisi a:hover .div_class {
+    height: 1050px;
+    transform: translateY(-1px) scale(1.01);
+    box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
+}
+
+
+.pura_serisi a:hover .div_class .ozellikler,
+.p_serisi a:hover .div_class .ozellikler,
+.mate_fold_serisi a:hover .div_class .ozellikler,
+.mate_serisi a:hover .div_class .ozellikler,
+.nova_serisi a:hover .div_class .ozellikler,
+.nova_serisi_old a:hover .div_class .ozellikler,
+.matepad_pro_serisi a:hover .div_class .ozellikler,
+.matepad_serisi a:hover .div_class .ozellikler,
+.matepad_se_serisi a:hover .div_class .ozellikler,
+.matebook_x_serisi a:hover .div_class .ozellikler,
+.matebook_serisi a:hover .div_class .ozellikler,
+.matebook_e_serisi a:hover .div_class .ozellikler,
+.watch_ultimate_serisi a:hover .div_class .ozellikler,
+.watch_serisi a:hover .div_class .ozellikler,
+.watch_gt_serisi a:hover .div_class .ozellikler,
+.watch_fit_serisi a:hover .div_class .ozellikler,
+.watch_d_serisi a:hover .div_class .ozellikler,
+.band_serisi a:hover .div_class .ozellikler,
+.watch_kids_serisi a:hover .div_class .ozellikler,
+.freebuds_serisi a:hover .div_class .ozellikler,
+.freeclip_serisi a:hover .div_class .ozellikler,
+.freearc_serisi a:hover .div_class .ozellikler,
+.freelace_serisi a:hover .div_class .ozellikler,
+.gozluk_serisi a:hover .div_class .ozellikler,
+.akilli_hoparlor_serisi a:hover .div_class .ozellikler,
+.mesh_serisi a:hover .div_class .ozellikler,
+.BE-AX_serisi a:hover .div_class .ozellikler,
+.BE-AX-2_serisi a:hover .div_class .ozellikler,
+.CPE_serisi a:hover .div_class .ozellikler,
+.CPE-2_serisi a:hover .div_class .ozellikler,
+.mobile_wifi_serisi a:hover .div_class .ozellikler,
+.more_product_serisi a:hover .div_class .ozellikler {
+    opacity: 1;
+    max-height: 1250px;
+    overflow-y: auto;
+}
